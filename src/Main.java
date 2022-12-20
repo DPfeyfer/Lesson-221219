@@ -46,5 +46,18 @@ public class Main {
         var fullWeight = boxerPiter + boxerIvan;
         System.out.println("Full weight boxer is " + fullWeight + " kg!");
         var differenceWeight = boxerIvan - boxerPiter;
-        System.out.println("Difference weight between boxer is " + differenceWeight + " kg!");}}
+        System.out.println("Difference weight between boxer is " + differenceWeight + " kg!");
+        var differenceWeight1 = fullWeight % boxerPiter;
+        System.out.println("Difference weight between boxer is " + differenceWeight1 + " kg!");
+
+        var workHours = 640;
+        var workDay = 8;
+        var companyWorkers = workHours / workDay;
+        System.out.println("Total worker in company is " + companyWorkers + " human!");
+
+
+        var addedWorker = 94;
+        var totalWorker = companyWorkers + addedWorker;
+        var workDayNow = workHours / totalWorker;
+        System.out.println("If in company " + totalWorker + " human then only " + workDayNow + " hours of work can be divided among employees!");}}
 
